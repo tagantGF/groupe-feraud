@@ -1,0 +1,3 @@
+﻿p_nom;p_ref;p_famille;p_sfamille;p_des_com;p_des_tec;p_prix_ht;p_poids;p_photo;p_photo_2;p_photo_3;p_pdf
+Le rouleau;8290;400;4002;Ceci est un descriptif commercial pour peindre des bâches;Ensemble de données décrivant les éléments matériels propres à un document;41,67;0,125;lerouleau.jpg;;;lerouleau.pdf
+Le nuancier;12598;300;;Ceci est un descriptif commercial d'un nuancier;Ensemble de données techniques décrivant les éléments matériels propres à un document.;50;0,255;lenuancier.jpg;lenuancier2.jpg;lenuancier3.jpg;lenuancier.pdf

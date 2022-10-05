@@ -3,3 +3,15 @@
 identifiant : 0990-1120-83/franck
 mdp : Ovh@.2022
 
+window + l lock session
+
+*********************github tnt api*************************
+
+https://github.com/clooney/tnt
+
+******************************************************
+
+********************for php scrapping ***************************
+
+https://www.scrapingbee.com/blog/web-scraping-php/
+****************************************************************

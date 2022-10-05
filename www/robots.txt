@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /banque/
+Disallow: /ancien site 2020/
+Allow: /

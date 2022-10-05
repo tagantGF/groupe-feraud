@@ -1,0 +1,10 @@
+DirectoryIndex index.php
+Options -Indexes
+ErrorDocument 403 "Desole, vous n'avez pas le droit d'acceder a ce dossier"
+#ErrorDocument 404 https://www.illicolor.com/admin/404.php
+ErrorDocument 404 http://localhost:8888/illicolor.com/admin/404.php
+SetEnv REGISTER_GLOBALS 0
+
+
+
+

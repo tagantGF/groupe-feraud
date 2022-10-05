@@ -1,0 +1,70 @@
+DirectoryIndex index.php
+Options -Indexes
+ErrorDocument 403 "Desole, vous n'avez pas le droit d'acceder a ce dossier"
+ErrorDocument 404 https://feraud-color.fr/404.php
+SetEnv REGISTER_GLOBALS 0
+RewriteEngine On
+
+RewriteRule ^feraud-peinture-qualite-professionnelle-sur-mesure-couleur-lasure-vernis-bois-metal-personnalisee$			index.php [L]
+RewriteRule ^feraud-configurateur-peinture$			                                                                    index.php#leconfigurateur [L]
+
+RewriteRule ^feraud-qui-sommes-nous-peinture-laque-lasure-vernis-couleurs$												qui.php [L]
+RewriteRule ^feraud-quoi-peindre-explications-support-bois-pvc-metal$													quoi.php [L]
+RewriteRule ^feraud-comment-peindre-explications-peinture$																comment.php [L]
+RewriteRule ^feraud-comment-commander-explications-ma-commande$															commander.php [L]
+RewriteRule ^feraud-boutique-consommable-outillage$																		boutique.php?_pas=1 [L]
+
+RewriteRule ^feraud-actualites$																							actualites.php [L]
+RewriteRule ^feraud-detail-actualites-([0-9_]+)$								        									detail-actualites.php?_idc=$1 [L]
+
+RewriteRule ^feraud-boutique-famille-([0-9]+)-([a-z0-9-]+)$																boutique.php?_idf=$1 [L]
+RewriteRule ^feraud-boutique-sous-famille-([0-9]+)-([a-z0-9-]+)$															boutique.php?_idsf=$1 [L]
+
+RewriteRule ^feraud-boutique-recherche-nm$																				boutique.php?_tr=nm [L]
+RewriteRule ^feraud-boutique-recherche-px$																				boutique.php?_tr=px [L]
+
+RewriteRule ^feraud-mon-compte-mes-commandes$																			boutique-mon-compte.php [L]
+RewriteRule ^feraud-mon-compte-deconnexion$																				boutique-mon-compte-deconnexion.php [L]
+RewriteRule ^feraud-mon-compte-liste-de-mes-commandes$																	boutique-mon-compte-commandes.php [L]
+RewriteRule ^feraud-mon-compte-creer-un-nouveau-compte$																	boutique-creer-compte.php [L]
+RewriteRule ^feraud-mon-compte-modifier-compte-client$																	boutique-modifier-compte.php [L]
+RewriteRule ^feraud-mon-compte-modifier-mdp-compte$																		reinitmotdepasse.php [L]
+
+RewriteRule ^feraud-boutique-consommable-outillage-nom$																	boutique.php?_pas=1&_tr=nm [L]
+RewriteRule ^feraud-boutique-consommable-outillage-prix$																	boutique.php?_pas=1&_tr=px [L]
+RewriteRule ^feraud-boutique-famille-nm-([0-9]+)-([a-z0-9-]+)$															boutique.php?_idf=$1&_tr=nm [L]
+RewriteRule ^feraud-boutique-sous-famille-nm-([0-9]+)-([a-z0-9-]+)$														boutique.php?_idsf=$1&_tr=nm [L]
+RewriteRule ^feraud-boutique-famille-px-([0-9]+)-([a-z0-9-]+)$															boutique.php?_idf=$1&_tr=px [L]
+RewriteRule ^feraud-boutique-sous-famille-px-([0-9]+)-([a-z0-9-]+)$														boutique.php?_idsf=$1&_tr=px [L]
+
+RewriteRule ^feraud-produit-detail-fiche-([0-9]+)-([a-z0-9-]+)$															detail-produit.php?_idp=$1 [L]
+
+
+RewriteRule ^feraud-mon-panier-liste-produits-boutique-peinture$															mon-panier.php [L]
+RewriteRule ^feraud-mon-panier-livraison-adresse-expedition$																mon-panier-livraison.php?_cb=1 [L]
+RewriteRule ^feraud-mon-panier-paiement-pro-en-compte$																	mon-panier-livraison.php?_cpt=1 [L]
+RewriteRule ^feraud-mon-panier-valider-avant-paiement$																	mon-panier-valider.php [L]
+RewriteRule ^feraud-mon-panier-methode-paiement-cb-ou-compte-pro$														mon-panier-mode-paiement-cic.php [L]
+RewriteRule ^feraud-peinture-adresse-coordonnees-contact-carte-nous-trouver$												contact.php [L]
+RewriteRule ^feraud-telechargement-documents-pdf-video-peinture$															telecharger.php [L]
+RewriteRule ^feraud-peinture-mentions-legales-et-credits$																mentions-legales-credits.php [L]
+RewriteRule ^feraud-peinture-credits-mentions-legales$																	mentions-legales-credits.php [L]
+RewriteRule ^feraud-peinture-laques-conditions-generale-de-vente$														cgv.php [L]
+
+RewriteRule ^feraud-commande-peinture-paiement-compte-pro-client$														paiement-compte.php [L]
+RewriteRule ^paiement-cb-ok$																								paiement-cb-ok.php [L]
+RewriteRule ^paiement-cb-ko$																								paiement-cb-ko.php [L]
+
+RewriteRule ^paiement-ok$		     																						paiement-ok.php [L]
+RewriteRule ^paiement-ko$	      																							paiement-ko.php [L]
+
+RewriteRule ^_ps8i-([0-9A-Za-z]+)$												                                            boutique-mot-de-passe-compte.php?_idc=$1 [L]
+
+RewriteRule ^feraud-panier-supprimer-code$																				panier-supcode.php [L]
+
+
+RewriteRule ^feraud-panier-supprimer-article-([a-z0-9_]+)$																panier-sup.php?_idp=$1 [L]
+RewriteRule ^feraud-panier-ajouter-article$																				panier-ajout.php [L]
+RewriteRule ^feraud-panier-ajouter-peinture$																				panier-aj.php [L]
+RewriteRule ^feraud-panier-vider$																						panier-vider.php [L]
+

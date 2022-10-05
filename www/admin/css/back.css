@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+.titre {
+	width:100%;
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	text-align:center;
+	font-weight:600;
+	padding-bottom:10px;
+	margin-bottom:15px;
+	display:flex;
+	border-bottom:1px grey solid;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	margin-left: -1.45rem;
+}
+
+#simple, #multiple {
+	border:1px grey solid;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	padding:5px;
+	background: rgb(230,230,230);
+}
+
+
+.m .multinput {
+margin:5px;
+}
+#myform{
+padding-left:10px;
+margin-top:0px;
+}
+
+.gras{
+font-weight:700;}
+
+.alert {
+    padding: 5px !important;
+	}
+	
+	
+#formulaire{
+	border:1px #ccc solid;
+	background:#efefef;
+	padding:5px;
+}
+.container .ligne-admin {
+    height: 35px;
+    width: 100%;
+    float: left;
+    margin: 0;
+    line-height: 30px;
+    font-size: 12px;
+    border-bottom: 1px solid #bbbbbb;
+	background:#fff;
+}
+
+.container .ligne_cmd {
+    height: 10px;
+    width: 100%;
+    float: left;
+    margin: 0;
+    line-height: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid #bbbbbb;
+	background:#fff;
+}
+
+tr.lignecmd {
+height:10px;
+border-bottom: 1px solid #bbbbbb;
+}
+
+
+.ligne-admin-coul .libelle {
+	float:left;
+	overflow:hidden;
+	width:670px;
+	height:35px;
+    line-height:35px;
+    font-size:12px;
+    padding-left:1em;
+}
+
+.ligne-admin-coul .actions {
+	float:right;
+	width:140px;
+    height:25px;
+}
+
+.ligne-admin-coul .actions img{
+	height:25px;
+}
+.ombreblanche{
+background-color:#29235c;
+padding:5px;
+color:#FFFFFF
+}
+.container .ligne-admin .libelle {
+    width: 90%;
+    float: left;
+    color: #230c03;
+}
+.container .ligne-admin .actions {
+    width: 10%;
+    float: right;
+    text-align: right;
+}
+
+.container .ligne-titre {
+    height: 30px;
+    width: 100%;
+    float: left;
+    margin: 0;
+	padding-left:5px;
+    line-height: 30px;
+    font-size: 12px;
+	color:#5f3089;
+    border-bottom: 1px solid #5f3089;
+	background:#ebebeb;
+}
+
+h1 {
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px #ddd solid;
+	border-radius: 3px;
+	font-size: 2em;
+	padding:0.15em 0.5em 0.15em 0.5em;
+}
+
+h2 {
+    color: #e32587;
+    background-color: #efefef;
+    border: 1px #ddd solid;
+	border-radius: 3px;
+	font-size: 1.5em;
+	padding:0.1em 0.5em 0.1em 0.5em;
+	float:left;
+	margin-top:10px !important;
+}
+.bordure{
+	border: 1px grey solid;
+    background-color: #efefef;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	padding:5px;
+	margin-bottom:15px;
+}
+
+.legendeadmin {
+    height: 45px;
+    width: 99%;
+    margin: 40px 0 0 0;
+    padding: 5px 0 0 0;
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    border: 1px grey solid;
+    background-color: #efefef;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.rouge{
+color:red;
+}
+

@@ -1,0 +1,502 @@
+@charset "UTF-8";
+
+a {
+font-size:14px;
+}
+
+* { 
+	margin:0;
+	padding:0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+	border:0;
+}
+
+
+body {
+	border: 0px;
+	font-family: 'Roboto', sans-serif;
+	background:#ffffff;
+}
+
+
+/* ==============================================================================*/
+/* ================================ Entete  =================================*/
+/* ==============================================================================*/
+
+
+body #entete {
+	z-index: 1;
+	width: 100%;
+	background-color:#fff;
+}
+
+
+body #entete #conteur-entete {
+	z-index: 1;
+	width: 1000px;
+	margin:0 auto 0 auto;
+}
+
+body #entete #conteur-entete #logo {
+	float:left;
+	width:33%;
+}
+
+body #entete #conteur-entete #accroche {
+	float:left;
+	width:67%;
+	color:#2b1e5c;
+	font-size:2em;
+	font-weight:700;
+	text-align:right;
+	padding-top:1em;
+}
+
+
+body #menu-principal {
+	z-index: 1;
+	width: 100%;
+	height:40px;
+	background:#e6e6e6;
+}
+
+body #menu-principal #conteur-menu {
+	z-index: 1;
+	width: 1000px;
+	margin:0 auto 0 auto;
+}
+
+/*---------------------------------
+ *  MENU PRINCIPAL + DEROULANT
+ *--------------------------------
+
+/*COMMUN AU MENU DEROULANT-*/
+
+body #menu-principal #conteur-menu #menu {
+	float:left;
+	position:relative;
+	width:1000px;
+	height:40px;
+	margin:0 0 0 0;
+}
+
+body #menu-principal #conteur-menu #menu p {
+	text-decoration:none;
+	color: #9c968a;
+	font-size:12px;
+	line-height:40px;
+	margin:0;
+	padding:0;
+	transition: color 0.2s linear 0s; /* w3 */
+	-o-transition: color 0.2s linear 0s;
+	-moz-transition: color 0.2s linear 0s;
+	-webkit-transition: color 0.2s linear 0s;
+}
+
+
+body #menu-principal #conteur-menu #menu p:hover {
+	text-decoration:none;
+	color: #797369;
+}
+
+
+body #menu-principal #conteur-menu #menu .sous-menu {
+	height:40px;
+	margin:0;
+	padding:0 10px 0 10px;
+	text-align:left;
+	color: #463e39;
+	transition: background 0.3s linear 0s; /* w3 */
+	-o-transition: background 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s;
+	
+}
+
+
+body #menu-principal #conteur-menu #menu .sous-menu:hover {
+	background-color:#e9e8e6;
+}
+
+
+
+
+body #menu-principal #conteur-menu #menu a {
+	font-size:14px;
+	line-height:40px;
+	color:#2b1e5c;
+	font-weight:500;
+}
+body #menu-principal #conteur-menu #menu a:hover {
+	color:#000;
+}
+
+
+
+/*COMMUN AU MENU DEROULANT-*/
+
+
+
+body #menu-principal #conteur-menu #menu .btn-menu1 {
+	float:left;
+	width:140px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+body #menu-principal #conteur-menu #menu .btn-menu2 {
+	float:left;
+	width:140px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+body #menu-principal #conteur-menu #menu .btn-menu3 {
+	float:left;
+	width:140px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+body #menu-principal #conteur-menu #menu .btn-menu4 {
+	float:left;
+	width:140px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+body #menu-principal #conteur-menu #menu .btn-menu5 {
+	float:left;
+	width:160px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+body #menu-principal #conteur-menu #menu .btn-menu6 {
+	float:left;
+	width:140px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+body #menu-principal #conteur-menu #menu .btn-menu7 {
+	float:left;
+	width:140px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	
+}
+
+
+body #menu-principal #conteur-menu #menu .btn-menu1:hover {
+	background:#f5f5f5;
+}
+
+body #menu-principal #conteur-menu #menu .btn-menu2:hover {
+	background:#f5f5f5;
+}
+
+body #menu-principal #conteur-menu #menu .btn-menu3:hover {
+	background:#f5f5f5;
+}
+
+body #menu-principal #conteur-menu #menu .btn-menu4:hover {
+	background:#f5f5f5;
+}
+
+body #menu-principal #conteur-menu #menu .btn-menu5:hover {
+	background:#f5f5f5;
+}
+
+body #menu-principal #conteur-menu #menu .btn-menu6:hover {
+	background:#f5f5f5;
+}
+
+body #menu-principal #conteur-menu #menu .btn-menu7:hover {
+	background:#f5f5f5;
+}
+
+
+
+
+
+/* ========================================================================================*/
+/* ===================================== SLIDER ===========================================*/
+/* ========================================================================================*/
+
+
+body #le-slider {
+	z-index: 1;
+	width: 100%;
+	height:350px;
+	background:#b32c88;
+}
+
+body #le-slider #slider-illicolor {
+	z-index: 1;
+	width: 1000px;
+	margin:0 auto 0 auto;
+	background:#b32c88;
+	position:relative;
+}
+
+
+
+/* ========================================================================================*/
+/* ===================================== CONTENEUR CENTRAL ================================*/
+/* ========================================================================================*/
+
+
+body #central {
+	z-index: 1;
+	width: 100%;
+	background:#fff;
+}
+
+body #central #conteneur-central {
+	z-index: 1;
+	width: 1000px;
+	margin:0 auto 0 auto;
+	background:#fff;
+	 position:relative;
+}
+	/*** NUANCIER ****/
+    
+    body #central #conteneur-central #layer_nuancier{
+        position:absolute;
+        top:0;
+        left:0;
+        background:#eee;
+        width:100%;
+    }
+    
+	body #central #conteneur-central #layer_nuancier h2{
+        padding:1em;
+        color:<?php echo $couleur3; ?>;
+    }
+    
+	le_nuancier
+	
+    body #central #conteneur-central #layer_nuancier .unenuance{
+	float:left;
+	width:10%;
+	padding:1%;
+	background:#00CCFF;
+	height:3em;
+	margin:0.5%;
+    
+    }
+
+	/**** FORMULAIRE *****/
+
+	body #central #conteneur-central #col-cmd{
+		width: 580px;
+		background:#ae1887;
+		min-height:100px;
+		margin:2em 0 2em 0;
+		float:left;
+		padding:10px;
+		color:#f5f5f5;
+	}
+	
+	body #central #conteneur-central #col-cmd .lgn {
+		float:left;
+		width:100%;
+		margin-bottom:1em;
+		margin-top:1em;
+	}
+	
+	body #central #conteneur-central #col-cmd .lgn label{
+		float:left;
+		width:250px;
+		font-size:1em;
+		line-height:1.5em;
+	}
+	body #central #conteneur-central #col-cmd .lgn select{
+		float:left;
+		width:330px;
+		background-color:#e6e6e6;
+		font-size:1em;
+		padding:3px;
+		border:1px solid #F5C5C5;
+		border-radius:4px;
+	}
+	
+	body #central #conteneur-central #col-cmd .lgn .blocoul{
+    	float:left;
+		width:330px;
+		height:30px;
+		font-size:1em;
+		padding:3px;
+		border:1px solid #F5C5C5;
+		border-radius:4px;
+    }
+	
+	body #central #conteneur-central #col-cmd .lgn #prixttc{
+		float:left;
+		width:44px;
+		margin:0 5px 0 0;
+		font-size:1em;
+		line-height:1.5em;
+		padding:0;
+	}
+	
+	body #central #conteneur-central #col-cmd .lgn #prixtxt{
+		float:left;
+		width:50px;
+		font-size:0.8em;
+		line-height:1.2em;
+		margin:0;
+		padding:0;
+	}
+	
+	body #central #conteneur-central #col-cmd .lgn #calcul{
+		float:left;
+		width:112px;
+		margin:0;
+		padding:0;
+		text-align:center;
+	}
+	body #central #conteneur-central #col-cmd .lgn #ajoutpanier{
+		float:left;
+		width:113px;
+		margin:0;
+		padding:0;
+		text-align:right;
+	}
+	
+	
+	/**** FIN FORMULAIRE *****/
+	
+body #central #conteneur-central #col-txtref{
+	width: 360px;
+	min-height:100px;
+	margin:1.1em 0 2em 0;
+	float:left;
+	padding:10px;
+	margin-left:20px;
+}
+
+body #central #conteneur-central #col-txtref h1 {
+	font-size:0.8em;
+	color:#000000;
+	font-weight:normal;
+	text-align:justify;
+	line-height:1.4em;
+}
+body #central #conteneur-central #col-txtref h2 {
+	color:#2b1e5c;
+	padding-bottom:0.5em;
+	font-size:2em;
+}
+body #central #conteneur-central #col-txtref ul {
+	color:#2b1e5c;
+	font-weight:500;
+	list-style-position: inside;
+	padding-bottom:1em;
+}
+body #central #conteneur-central #col-txtref ul li {
+	color:#2b1e5c;
+	line-height:2em;
+	font-size:1.2em;
+}
+
+
+/* ========================================================================================*/
+/* ===================================== footer colonnes ================================*/
+/* ========================================================================================*/
+
+
+
+
+
+/* ========================================================================================*/
+/* ===================================== footer bas =======================================*/
+/* ========================================================================================*/
+
+
+body #footerbas {
+	z-index: 1;
+	width: 100%;
+	background:#000;
+}
+
+body #footerbas #conteneur-footerbas {
+	z-index: 1;
+	width: 1000px;
+	margin:0 auto 0 auto;
+	text-align:center;
+	color:#e6e6e6;
+	font-size:0.7em;
+	padding:0.5em;
+}
+
+body #footerbas #conteneur-footerbas a{ color:#CCCCCC; text-decoration:none;}
+body #footerbas #conteneur-footerbas a:hover{ color:#ae1887;}
+
+/* ========================================================================================*/
+/* ================================= MISE EN PAGE =========================================*/
+/* ========================================================================================*/
+
+.clear {clear:both;}
+
+
+
+@media only screen and (max-width: 840px) 
+{
+	body #entete #conteur-entete #logo {
+		width: 100%!important; 
+		
+	}
+
+	body #entete #conteur-entete #accroche {
+		width: 100%!important; 
+		
+		color:#2b1e5c;
+		font-size:2em;
+		font-weight:700;
+		text-align:left;
+		padding-top:1em;
+	}
+
+	div[class="column"] {
+		 width: auto!important; 
+		 float:none!important;
+		 padding-left: 20px!important;
+	 	 padding-right: 20px!important;
+		 padding-bottom: 0px!important;
+	 }
+	 
+	 body #footer #conteneur-footer #footer-col1 {
+		width: 100%!important;
+		padding-left:1em;
+		font-size:1.5em;
+	}
+	body #footer #conteneur-footer #footer-col2 {
+		width: 100%!important; 
+		padding-left:1em;
+		font-size:1.5em;
+	}
+	body #footer #conteneur-footer #footer-col3 {
+		width: 100%!important; 
+		padding-left:1em;
+		font-size:1.5em;
+	}
+	
+	body #footerbas #conteneur-footerbas {
+		width: 100%!important;  
+	}
+	
+	body #central #conteneur-central #col-cmd{
+		width: 100%!important;  
+	}
+	body #central #conteneur-central #col-txtref{
+		width: 100%!important;  
+	}
+	
+}

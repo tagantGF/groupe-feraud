@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+input[type="radio"][id="10"], input[type="radio"][id="20"], input[type="radio"][id="30"], input[type="radio"][id="40"], input[type="radio"][id="50"], input[type="radio"][id="60"] {
+  display: none;
+}
+
+.lesupport label {
+  /* border: 1px solid #fff; */
+  margin: 15px;
+  cursor: pointer;
+
+}
+.form-control{
+	font-size:1em;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2rem);
+}
+.prix_barre {
+  position: relative;
+}
+/*
+.prix_barre:before {
+  position: absolute;
+  color:#000;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: black !important;
+  
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+*/
+
+.lesupport label img {
+  height: 100px;
+  width: 100px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label {
+  border-color: #ddd;
+
+}
+
+:checked + label img {
+  transform: scale(1.3);
+  -webkit-filter: drop-shadow(0px 0px 5px #000 );
+  filter: drop-shadow(0px 0px 5px #000);
+  z-index: -1;
+}
+
+.leprix{
+color:#FFFFFF;
+text-align:center;
+font-weight:400;}
+
+.leprix.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.prix{
+	font-size:1.2em;
+}
+#prixttc, #prixht, #prixbarre {
+	background:transparent;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom-color:#FFFFFF;
+	color:#FFFFFF;
+	width:10%;
+	
+	font-size: 1em;
+	font-weight:700;
+	text-align:center;
+}
+
+#commande{
+	padding:30px 40px 20px 40px;
+}
+
+#commande input[type="submit"] {
+	background-color: #1b426c;
+	width:100%;
+	border:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius: 20px;
+	color:#FFFFFF;
+	box-shadow: 0px 8px 21px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 8px 21px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 21px -5px rgba(0,0,0,0.75);
+}
+
+/*** NUANCIER ****/
+
+
+#conteneur-central #layer_nuancier{
+        position:absolute;
+        top:0;
+        left:0;
+        background:#eee;
+        width:1140px;
+		z-index:10;
+		overflow-y: scroll;
+		height:80vh;
+    }
+    
+#conteneur-central #layer_nuancier h2{
+        padding:1em 1em 0.1em 1em;
+       
+    }
+    
+#conteneur-central #layer_nuancier i{
+        padding:0.5em 1em 1em 1.2em;
+        font-size:0.8em;
+        
+    }
+    
+#conteneur-central #layer_nuancier .unenuance{
+		float:left;
+		width:11.3%;
+		padding:0 ;
+		background:#00CCFF;
+		height:4em;
+		margin:0.5%;
+        border:1px solid black;
+        position: relative;
+    }
+    
+#conteneur-central #layer_nuancier .unenuance .refcoul{
+		text-align:center;
+		width:100%;
+		background:#FFFFFF;
+		color:#000000;
+		position: absolute;
+		bottom:0;
+		left:0;
+		font-size:0.8em;
+	}
+    
+    /*** POUDRE ****/
+    
+#conteneur-central #layer_poudre{
+        position:absolute;
+        top:0;
+        left:0;
+         width:1140px;
+		z-index:10;
+    }
+	
+#layer_poudre #fermer{
+	position:absolute;
+	top:5px;
+	left:5px;
+	background:#FFFFFF;
+	width:20px;
+	height:16px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+	line-height:16px;
+	text-align:center;
+	cursor:pointer;
+}
+    
+#conteneur-central #layer_poudre h2{
+    padding:1em;
+    border-bottom:1px solid #ffffff;
+	background: var(--main-magenta);
+	border-top:1px solid #ffffff;
+    color:#ffffff;
+	margin-bottom:0;
+}
+    
+#conteneur-central #layer_poudre #poudre{
+	background: var(--main-magenta);
+	}
+	
+#conteneur-central  #mabrillance .blocoul{
+	float:left;
+	width:330px;
+	height:30px;
+	border:0px;
+	border-radius:4px;
+	margin:0;
+	padding:0;
+	background-color:<?php echo $couleur1; ?>;
+}
+
+#conteneur-central #macouleur .blocoul{
+	float:left;
+	width:330px;
+	height:30px;
+	border:0px;
+	border-radius:4px;
+	margin:0;
+	padding:0;
+	background-color:<?php echo $couleur1; ?>;
+}
+
+#conteneur-central #macouleur #lenomdelacouleur {
+	float:left;
+	height:30px;
+	border:0px;
+	margin:0;
+	padding:0 10px 0 0;
+	line-height:30px;
+	padding:0 10px 0 ;
+	color:#000000;
+}
+
+#conteneur-central #macouleur #pastillecouleur {
+	float:left;
+	width:25px;
+	height:25px;
+	border:0px;
+	border-radius:15px;
+	margin:0;
+	padding:0;
+}
+
+h5{
+	margin-bottom: .2rem;
+}
