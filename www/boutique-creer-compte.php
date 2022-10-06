@@ -565,7 +565,7 @@
                     <div class="row centre">
                         <div class="col-12 icon_livraison"><img src="images/picto-chrono.png" /></div>
                         <div class="col-12">
-                            <h6>Livraison en 48h</h6>
+                            <h6>Livraison en 72h</h6>
                             
                         </div>
                     </div>
