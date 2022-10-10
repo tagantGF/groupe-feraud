@@ -7,7 +7,24 @@ window + l lock session
 
 *********************github tnt api*************************
 https://github.com/clooney/tnt
-
+*******************************************************
 **********************mes questions******************
 les catalogues ?
 organigrammes ?
+******************************************************
+
+**************************php mailer********************************
+https://analyse-innovation-solution.fr/publication/fr/php/comment-envoyer-un-mail-en-php
+
+*************************************************************************
+
+
+TEST 
+
+"api_key": "116b2834c3f281945f439687c5a0ed5f",
+    "expiration": "2022-10-07T04:08:11+02:00"
+
+*****************************connection ovh bd ***********************
+	mdp : Ovhbd2022
+	identifiant : bqsyhddfranck
+*************************************************************************
